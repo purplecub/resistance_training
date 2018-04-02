@@ -30,8 +30,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# jQuery is required for bootstrap 4
+gem 'jquery-rails'
 # Use bootstrap for stylesheets
-gem 'bootstrap', '4.0.0'
+gem 'bootstrap', '~> 4.0.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
