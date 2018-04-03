@@ -1,10 +1,18 @@
 class ContactsController < ApplicationController
   
   def new
-    @contact = Contact.new(contact_params)
+    @contact = Contact.new
   end
   
   def create
+    @contact = Contact.new(contact_params)
+    if saved
+      flash[:success] = 'Message sent.'
+      redirect_to root_path
+    else
+      flash[:error] = 'An error occurred. Message not sent.'
+      redirect_to new_contact_path
+    end
   end
   
   private
