@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 # Use bootstrap for stylesheets
 gem 'bootstrap', '~> 4.0.0'
+# Use fontawesome for icons
+gem 'font-awesome-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
