@@ -26,3 +26,4 @@ Things you may want to cover:
 
 To do: 
 Install fontawesome correctly
+Figure out how to get a picture to send with the contact form 
